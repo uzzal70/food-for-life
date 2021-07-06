@@ -82,7 +82,7 @@ nav a:hover{
 #about-section{
     width: 100%;
     height: 600px;
-    background-image: url(/images/shapes/7.png);
+    background-image: url(images/shapes/7.png);
 }
 #about-section .food-man{
     display: flex;
@@ -163,19 +163,19 @@ nav a:hover{
 
 #contact{
     width: 100%;
-    background-image: url(images/partner-with-zerocater-bg.jpg);
+    background-image: linear-gradient(rgba(211, 148, 230, 0.4), #420c1a), url(images/partner-with-zerocater-bg.jpg); 
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-size: cover;
     margin-bottom: 80px;
+    padding-bottom: 20px;
 }
 #contact h1{
     margin: 0;padding: 20px;
     text-align: center;
 }
 form{
-    width: 600px;
+    margin-left: 60px;
+    width: 500px;
 }
 input, textarea{
     width: 100%;
@@ -193,10 +193,8 @@ label{
     padding: 0px 30px;
     color: rgb(146, 15, 41);
 }
-.input-group .btn button{
-    width: 100%;
-    margin: 0;padding: 0;
-    text-align: center;
+#contact button{
+    margin-left: 92%;
 }
 /* contact section end */
 
