@@ -1,5 +1,3 @@
-/* font-family: 'Anton', sans-serif;
-font-family: 'Montserrat', sans-serif; */
 body{  
     padding: 0;
     margin: 0;
@@ -62,14 +60,13 @@ nav{
     margin-right: 100px;
 }
 nav a{
+    font-weight:bold;
     padding: 20px;
 }
 nav a:hover{
     color: darkblue;
 }
-
 /* navigation section end*/
-
 /* Header section start*/
 .half-width{
     width:50%
@@ -104,7 +101,7 @@ nav a:hover{
 /* Recipies Section start */
 #recipies-section{
     width: 100%;
-    background-image: linear-gradient(rgba(248, 166, 166, 0.4), #50484a), url(images/bg.jpg); 
+    background-image: linear-gradient(rgba(248, 166, 166, 0.4), #50484a), url(images/shapes/bg.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -121,10 +118,10 @@ nav a:hover{
 .item{
     width: 25%;
     height: 500px;
-    margin:0px 38px 20px 22px;
+    margin: 0px 38px 20px 22px;
     padding: 20px;
     background-color: crimson;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: -10px 4px 8px 0 rgba(238, 193, 193, 0.3), 0px 6px 20px 0 rgba(228, 202, 202, 0.4);
     border-radius: 40px 0px ;
 
 }
@@ -158,12 +155,10 @@ nav a:hover{
     font-size: 20px;
 }
 /* Social media end*/
-
 /* contact section start */
-
 #contact{
     width: 100%;
-    background-image: linear-gradient(rgba(211, 148, 230, 0.4), #420c1a), url(images/partner-with-zerocater-bg.jpg); 
+    background-image: url(images/shapes/partner-with-zerocater-bg.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 80px;
@@ -196,9 +191,38 @@ label{
 #contact button{
     margin-left: 92%;
 }
+.food-pic{
+    width:40%;
+    height: 425px;
+    margin: 100px 0px 0px 200px;
+}
+.food-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px ;
+}
 /* contact section end */
-
-
+/* Team section satrt */
+#team{
+    text-align: center;
+}
+#team img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 5px solid rgb(122, 85, 92);
+}
+#team h5, h6{
+    margin: 0;
+    padding-top: 10px;
+    font-size: 20px;
+}
+#team h5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Team section end  */
+/* footer start */
 footer{
     background-color: rgb(7, 107, 121);
     text-align: center;
@@ -211,3 +235,4 @@ footer{
     margin: 0;
     padding: 0;
 }
+/* footer end */
