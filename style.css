@@ -1,0 +1,215 @@
+/* font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+body{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: rgb(5, 5, 53);
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+h1 span{
+    color: crimson;
+}
+/* title start */
+.title h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: rgb(155, 134, 134);
+}
+/* title end */
+p{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    font-size: 20px;
+    width: fit-content;
+    padding: 10px 30px;
+    background-image: linear-gradient(crimson,orange);
+    border-radius: 25px;
+    border: none;
+    margin-top: 20px;
+}
+button:hover{
+    background-image: linear-gradient(black, green);
+}
+.container{
+    margin-top: 82px;
+    display: flex;
+    width: 100%;
+}
+/* navigation section start*/
+nav{
+    padding: 10px 0px 10px 100px;
+    display: flex;
+    background-color: crimson;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    margin-right: 100px;
+}
+nav a{
+    padding: 20px;
+}
+nav a:hover{
+    color: darkblue;
+}
+
+/* navigation section end*/
+
+/* Header section start*/
+.half-width{
+    width:50%
+}
+.container .content-section{
+    margin-left: 100px;
+}
+/* header Section end */
+/* About section start */
+#about-section{
+    width: 100%;
+    height: 600px;
+    background-image: url(/images/shapes/7.png);
+}
+#about-section .food-man{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+#about-section .content-section{
+    padding: 127px 165px 220px 20px;
+}
+#about-section button{
+    margin-top: 50px;
+}
+#about-section p::first-letter{
+    font-size: 40px;
+    font-weight: bold;
+}
+/* About Section end */
+/* Recipies Section start */
+#recipies-section{
+    width: 100%;
+    background-image: linear-gradient(rgba(248, 166, 166, 0.4), #50484a), url(images/bg.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.r-description{
+    margin: 4% 30%;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+.container-item{
+    display: flex;
+    margin: 0px 100px;
+}
+.item{
+    width: 25%;
+    height: 500px;
+    margin:0px 38px 20px 22px;
+    padding: 20px;
+    background-color: crimson;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 40px 0px ;
+
+}
+.item img{
+    width: 100%;
+    border-radius: 20px;
+}
+.item h3{
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+/* Recipies sectio end*/
+/* Social media start*/
+.social-container{
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 82px 100px;
+    padding: 70px 140px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 40px 0px ;
+}
+.s-media-name h1{
+    margin: 0;
+}
+.s-media-name h6{
+    margin: 0;
+    font-size: 20px;
+}
+/* Social media end*/
+
+/* contact section start */
+
+#contact{
+    width: 100%;
+    background-image: url(images/partner-with-zerocater-bg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+#contact h1{
+    margin: 0;padding: 20px;
+    text-align: center;
+}
+form{
+    width: 600px;
+}
+input, textarea{
+    width: 100%;
+    margin-top: 18px;
+    outline: none;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    font-size: 18px;
+    background-color: transparent;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 30px;
+    color: rgb(146, 15, 41);
+}
+.input-group .btn button{
+    width: 100%;
+    margin: 0;padding: 0;
+    text-align: center;
+}
+/* contact section end */
+
+
+footer{
+    background-color: rgb(7, 107, 121);
+    text-align: center;
+}
+.footer-content{
+    padding: 10px 0px;
+    height: 200px;
+}
+.footer-content h1{
+    margin: 0;
+    padding: 0;
+}
